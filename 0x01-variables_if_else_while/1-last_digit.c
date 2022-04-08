@@ -21,12 +21,12 @@ if (n % 10 > 5)
 
 else if (n % 10 == 0)
 {
-	printf("Last digit %i is %i and is 0\n", n, n %10);
+	printf("Last digit of %i is %i and is 0\n", n, n % 10);
 }
 
-else 
+else
 {
-	printf("Last gidit of %i is %i is less than 6 and not 0\n", n, n % 10);
+	printf("Last digit of %i is %i is less than 6 and not 0\n", n, n % 10);
 }
 
 return (0);
