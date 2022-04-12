@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h";
 
 /**
  * print_alphabet - print alphabet lowercase
@@ -18,7 +18,7 @@ while (i < 10)
 {
 _putchar(n);
 }
-i++
+i++;
 _putchar('\n');
 }
 }
