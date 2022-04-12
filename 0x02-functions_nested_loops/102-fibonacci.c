@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *maon - pritn the first 50 fibonnacci nmbers.
+ *main - pritn the first 50 fibonnacci nmbers.
  *Return: Nothing.
  */
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 			putchar('\n');
 		else
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	return (0);
