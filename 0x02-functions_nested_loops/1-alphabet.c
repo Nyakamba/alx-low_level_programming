@@ -8,13 +8,17 @@
 
 void print_alphabet(void)
 {
-char alphabet;
+int n, i;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+i = 0;
+
+while (i < 10)
 {
-_putchar(alphabet);
+	for (n = 'a'; n <= 'z'; n++)
+{
+_putchar(n);
 }
-
+i++
 _putchar('\n');
-
+}
 }
