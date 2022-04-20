@@ -14,10 +14,10 @@ void rev_string(char *s)
 
 	for (i = 0; s[i]; i++)
 	{
-		length++
+		length++;
 	}
 
-	count = lenth;
+	count = length;
 	
 	start_c = s;
 	end_c = s;
