@@ -26,7 +26,7 @@ int main(void)
 	}
 	a[i++] = (2772 - n);
 	a[i] = '\0';
-	pintf("%s", a);
+	printf("%s", a);
 
 	return (0);
 }
