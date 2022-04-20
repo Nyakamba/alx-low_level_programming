@@ -8,26 +8,33 @@
   */
 void rev_string(char *s)
 {
-	int i, c, k;
-	char *a, aux;
+	int i, count;
+	char *start_c, *end_c, c;
+	int length = 0;
 
-	a = s;
-
-	while (s[c] != '\0')
+	for (i = 0; s[i]; i++)
 	{
-		c++;
+		length++
 	}
 
-	for (k = 1; k < c; k++)
+	count = lenth;
+	
+	start_c = s;
+	end_c = s;
+
+	for (i = 0; i < count - 1; i++)
 	{
-		a++;
+		end_c++;
 	}
 
-	for (i = 0; i < (c / 2); i++)
+	for (i = 0; i <count / 2; i++)
 	{
-		aux = s[i];
-		s[i] = *a;
-		*a = aux;
-		a--;
+		
+		c = *end_c;
+		*end_c = *start_c;
+		*start_c = c;
+
+		start_c++;
+		end_c--;
 	}
 }
